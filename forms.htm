@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in html</title>
+</head>
+
+<body>
+    <h2>This form develoved in HTML</h2>
+    <form action="backed.php">
+        <label for="name">Name </label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">Role</label>
+        <div>
+            <input type="text" role="myRole" id="role">
+        </div>
+        <br>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <label for="date">Choose Date</label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="age">Age</label>
+        <div>
+            <input type="number" name="myAge" id="age">
+        </div>
+        <br>
+        <label for="gender">Select Gender</label>
+        <div>
+            Male <input type="radio" name="myGender" id=""checked>
+            Female <input type="radio" name="myGender" id="">
+            Other <input type="radio" name="myGender" id="">
+        </div>
+        <br>
+        <div>
+            <label for="state">Select State</label>
+            <select name="myCar" id="state">
+                <option value="DL">Delhi</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="Br">Bihar</option>
+                <option value="Hr">Hariyana</option>
+                <option value="PB">Punjab</option>
+            </select>
+        </div>
+        <br>
+        <label for="text">Write your text</label>
+        <div>
+            <!-- Write your text : <input type="text" name="myText" id=""> -->
+            <br> <textarea name="myText" id="" cols="100" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            Are you agree? : <input type="checkbox" name="myCheckbox" id="">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now"> <input type="reset" value="Or Reset"> 
+        </div>
+        <br>
+        <div>
+            <!-- <input type="submit" value="Submit Now"> -->
+        </div>
+        <br>
+    </form>
+</body>
+
+</html>
